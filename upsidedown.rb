@@ -14,12 +14,9 @@ class String
   end
 end
 
-
 if ARGV.length == 0
   abort "  Usage: You need to pass a string to me."
 end
 
-
 x = ARGV.join " "
-
 puts x.upside_down
